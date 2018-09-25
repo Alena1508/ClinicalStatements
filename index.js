@@ -29,8 +29,9 @@ const reducers = {
   patientsClinicalStatements,
   patientClinicalStatementsCreate,
   clinicalStatementsDetail,
+
 	patientsClinicalStatementsTags,
-	patientsClinicalStatementsQuery,
+	patientsClinicalStatementsQuery
 };
 
 const sidebarConfig = { key: 'clinicalStatements', pathToTransition: '/clinicalStatements', name: 'Clinical Statements', isVisible: true };
